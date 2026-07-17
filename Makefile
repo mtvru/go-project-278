@@ -1,10 +1,10 @@
 .PHONY: build run test lint generate migrate db-up db-down dev
 
 build:
-	go build -o bin/app ./cmd/app
+	go build -o bin/app ./main.go
 
 run:
-	go run ./cmd/app
+	go run ./main.go
 
 test:
 	go test ./...
