@@ -1,0 +1,15 @@
+{
+  "name": "go-project-278",
+  "version": "1.0.0",
+  "description": "URL shortener (Go + Gin)",
+  "private": true,
+  "scripts": {
+    "start-backend": "go run main.go",
+    "start-frontend": "start-hexlet-url-shortener-frontend",
+    "dev": "concurrently -n backend,frontend -c blue,green \"npm run start-backend\" \"npm run start-frontend\""
+  },
+  "dependencies": {
+    "@hexlet/project-url-shortener-frontend": "^1.0.0",
+    "concurrently": "^10.0.3"
+  }
+}

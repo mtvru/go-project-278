@@ -1,0 +1,7 @@
+.git
+.github
+.idea
+.env
+bin/app
+node_modules
+*.md
